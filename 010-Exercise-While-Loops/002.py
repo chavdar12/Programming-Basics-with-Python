@@ -1,6 +1,6 @@
 balance = float(input())
 coins_counter = 0
-balance = int(balance * 100)
+balance = round(balance * 100)  # int() truncates 1.15 * 100 to 114
 
 while balance > 0:
     if balance >= 200:

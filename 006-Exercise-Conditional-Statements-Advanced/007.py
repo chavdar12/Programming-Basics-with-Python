@@ -17,13 +17,13 @@ if operator == "+" or operator == "-" or operator == "*":
     else:
         print(f"{n1} {operator} {n2} = {result} - odd")
 elif operator == "/":
-    if n1 == 0 or n2 == 0:
+    if n2 == 0:
         print(f"Cannot divide {n1} by zero")
     else:
         result = n1 / n2
         print(f"{n1} / {n2} = {result:.2f}")
 elif operator == "%":
-    if n1 == 0 or n2 == 0:
+    if n2 == 0:
         print(f"Cannot divide {n1} by zero")
     else:
         result = n1 % n2
